@@ -7,6 +7,10 @@
 
 }
 
+.image-footer {
+  position: relative;
+}
+
 ul {
   list-style: none;
   padding-left: 5px
@@ -51,4 +55,17 @@ ul.authors {
 
 img {
   margin-bottom: 4px;
+}
+
+.image-footer::before {
+  content: "";
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 8px 8px 0 8px;
+border-color: #b6b7b8 transparent transparent transparent;
+  position: absolute;
+  right: 0px;
+  top: -8px;
+
 }
