@@ -45,6 +45,10 @@ ul.authors {
   float: left;
 }
 
+.image-number:before {
+  content: "#"
+}
+
 img {
   margin-bottom: 4px;
 }
